@@ -140,17 +140,18 @@ public class SecondActivity extends AppCompatActivity implements AdapterView.OnI
 
     public boolean onCreatOptionsMenu(Menu menu) {
         menu.add("Credits");
-    return true;
+        return true;
     }
 
-    public boolean OnOptionsItemSelected (MenuItem item){
-        String str=item.getTitle().toString();
+    public boolean OnOptionsItemSelected(MenuItem item) {
+        String str = item.getTitle().toString();
         if (str.equals("Credits"))
-            Toast.makeText(this,"Application By Michal",Toast.LENGTH_LONG);
+            Toast.makeText(this, "Application By Michal", Toast.LENGTH_LONG);
         return true;
     }
 
 }
+//}
 
 
 
