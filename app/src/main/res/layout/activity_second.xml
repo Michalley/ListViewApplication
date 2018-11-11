@@ -184,20 +184,12 @@
             android:layout_weight="4" />
 
         <Button
-            android:id="@+id/btn"
+            android:id="@+id/btn1"
             android:layout_width="match_parent"
             android:layout_height="2dp"
             android:layout_weight="1"
             android:onClick="main"
             android:text="ראשי" />
-
-        <Button
-            android:id="@+id/btnC"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_weight="1"
-            android:onClick="credit"
-            android:text="מסך קרדיטים" />
 
     </LinearLayout>
 
